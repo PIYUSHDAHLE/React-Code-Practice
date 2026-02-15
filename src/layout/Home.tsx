@@ -12,7 +12,8 @@ const colors = [
 
 const cards = [
   { id: 1, title: "Counter Project", path: "/count" },
-  { id: 1, title: "Toggle Project", path: "/toggle" },
+  { id: 2, title: "Toggle Project", path: "/toggle" },
+  { id: 3, title: "Submit Form Project", path: "/submit-form" },
 
 ].map(card => ({
   ...card,
