@@ -16,6 +16,7 @@ const cards = [
   { id: 3, title: "Submit Form Project", path: "/submit-form" },
   { id: 4, title: "API Integration Project", path: "/api-integration" },
   { id: 5, title: "Normal Form Project", path: "/normal-form" },
+  { id: 6, title: "Search Project", path: "/search" },
 
 ].map(card => ({
   ...card,

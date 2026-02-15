@@ -5,6 +5,7 @@ import Toggle from "./pages/Toggle"
 import SubmitForm from "./pages/SubmitForm"
 import APIIntegration from "./pages/APIIntegration"
 import NormalForm from "./pages/NormalForm"
+import SearchFilter from "./pages/Search"
 
 const App = () => {
   return (
@@ -14,9 +15,10 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/count" element={<Counter />} />
         <Route path="/toggle" element={<Toggle />} />
-        <Route path="/form" element={<SubmitForm />} />
+        <Route path="/submit-form" element={<SubmitForm />} />
         <Route path="/api-integration" element={<APIIntegration />} />
         <Route path="/normal-form" element={<NormalForm />} />
+        <Route path="/search" element={<SearchFilter />} />
       </Routes>
     </Router>
     </>
