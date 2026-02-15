@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom"
+// import PropsDriling from "../pages/PropsDriling"
 
 const colors = [
   "bg-gradient-to-br from-purple-600 to-indigo-700",
@@ -50,6 +51,7 @@ const Home = () => {
           </div>
         ))}
       </div>
+      {/* <PropsDriling name="john doe" age={23} /> */}
     </div>
   )
 }

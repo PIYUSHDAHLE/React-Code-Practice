@@ -4,12 +4,14 @@ import Counter from "./pages/Counter"
 
 const App = () => {
   return (
+      <>
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/count" element={<Counter />} />
       </Routes>
     </Router>
+    </>
   )
 }
 
