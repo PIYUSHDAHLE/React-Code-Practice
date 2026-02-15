@@ -4,6 +4,7 @@ import Counter from "./pages/Counter"
 import Toggle from "./pages/Toggle"
 import SubmitForm from "./pages/SubmitForm"
 import APIIntegration from "./pages/APIIntegration"
+import NormalForm from "./pages/NormalForm"
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/toggle" element={<Toggle />} />
         <Route path="/form" element={<SubmitForm />} />
         <Route path="/api-integration" element={<APIIntegration />} />
+        <Route path="/normal-form" element={<NormalForm />} />
       </Routes>
     </Router>
     </>
