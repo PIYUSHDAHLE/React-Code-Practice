@@ -3,6 +3,7 @@ import Home from "../src/layout/Home"
 import Counter from "./pages/Counter"
 import Toggle from "./pages/Toggle"
 import SubmitForm from "./pages/SubmitForm"
+import APIIntegration from "./pages/APIIntegration"
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/count" element={<Counter />} />
         <Route path="/toggle" element={<Toggle />} />
         <Route path="/form" element={<SubmitForm />} />
+        <Route path="/api-integration" element={<APIIntegration />} />
       </Routes>
     </Router>
     </>
